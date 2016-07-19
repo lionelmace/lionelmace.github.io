@@ -50,10 +50,10 @@ h1 {
   color: #FFF;
 }
 
-.demo-red,
-.demo-red a {
+.demo-orange,
+.demo-orange a {
   background: #AC193D;
-  color: #FFF;
+  color: darkorange;
 }
 
 .demo-msg,

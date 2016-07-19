@@ -1,0 +1,63 @@
+body {
+  font-family: 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+
+.category {
+  margin: 10px;
+}
+
+.demo:hover {
+  background: #000;
+}
+
+.demo {
+  font-weight: bold;
+  display: inline-table;
+  padding: 20px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  height: 100px;
+  width: 150px;
+  text-align: center;
+}
+
+.demo-blue,
+.demo-blue a {
+  background: #2672EC;
+  color: #FFF;
+}
+
+.demo-tools,
+.demo-tools a {
+  background: #DC572E;
+  color: #FFF;
+}
+
+.demo-watson,
+.demo-watson a {
+  background: #00A600;
+  color: #FFF;
+}
+
+.demo-purple,
+.demo-purple a {
+  background: #5133AB;
+  color: #FFF;
+}
+
+.demo-red,
+.demo-red a {
+  background: #AC193D;
+  color: #FFF;
+}
+
+.demo-msg,
+.demo-msg a {
+  background: #388F58;
+  color: #FFF;
+}

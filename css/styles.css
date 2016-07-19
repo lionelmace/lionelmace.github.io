@@ -25,6 +25,7 @@ h1 {
   height: 100px;
   width: 150px;
   text-align: center;
+  vertical-align: center;
 }
 
 .demo-blue,

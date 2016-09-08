@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,10 +18,17 @@
 
   <!-- Google Analytics -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-80975942-1', 'auto');
     ga('send', 'pageview');
@@ -30,12 +38,12 @@
   <script>
     $(document).ready(function() {
 
-    $("#owl-demo").owlCarousel({
+      $("#owl-demo").owlCarousel({
 
-        navigation : true, // Show next and prev buttons
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true
+        navigation: true, // Show next and prev buttons
+        slideSpeed: 300,
+        paginationSpeed: 400,
+        singleItem: true
 
         // "singleItem:true" is a shortcut for:
         // items : 1,
@@ -44,9 +52,9 @@
         // itemsTablet: false,
         // itemsMobile : false
 
-    });
+      });
 
-  });
+    });
   </script>
 
 </head>
@@ -57,15 +65,36 @@
 
     <h3 class="text-muted">Bluemix Demonstrations</h3>
 
-      <a href="http://ibm.biz/bluemixcatalog" target="_blank"><span class="demo demo-blue">Catalog<br/><i class="fa fa-barcode fa-2x"></i></span></a>
+    <a href="http://ibm.biz/bluemixcatalog" target="_blank"><span class="demo demo-blue">Catalog<br/><i class="fa fa-barcode fa-2x"></i></span></a>
   </div>
 
-  <div id="owl-demo" class="owl-carousel owl-theme">
+  <div id="owl-demo" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
 
-    <div class="item"><img src="assets/fullimage1.jpg" alt="The Last of us"></div>
-    <div class="item"><img src="assets/fullimage2.jpg" alt="GTA V"></div>
-    <div class="item"><img src="assets/fullimage3.jpg" alt="Mirror Edge"></div>
+    <div class="owl-wrapper-outer">
+      <div class="owl-wrapper" style="width: 4344px; left: 0px; display: block; transition: all 0ms ease; transform: translate3d(0px, 0px, 0px);">
+        <div class="owl-item" style="width: 724px;">
+          <div class="item"><img src="assets/fullimage1.jpg" alt="The Last of us"></div>
+        </div>
+        <div class="owl-item" style="width: 724px;">
+          <div class="item"><img src="assets/fullimage2.jpg" alt="GTA V"></div>
+        </div>
+        <div class="owl-item" style="width: 724px;">
+          <div class="item"><img src="assets/fullimage3.jpg" alt="Mirror Edge"></div>
+        </div>
+      </div>
+    </div>
 
+    <div class="owl-controls clickable">
+      <div class="owl-pagination">
+        <div class="owl-page active"><span class=""></span></div>
+        <div class="owl-page"><span class=""></span></div>
+        <div class="owl-page"><span class=""></span></div>
+      </div>
+      <div class="owl-buttons">
+        <div class="owl-prev">prev</div>
+        <div class="owl-next">next</div>
+      </div>
+    </div>
   </div>
 
   <footer>
@@ -73,4 +102,5 @@
   </footer>
 
 </body>
+
 </html>

@@ -15,18 +15,6 @@ h1 {
   background: #FFA500;
 }
 
-.demob {
-  font-size: 20;
-  display: inline-table;
-  padding: 20px;
-  margin-left: 5px;
-  margin-bottom: 5px;
-  height: 50px;
-  width: 200px;
-  text-align: center;
-  vertical-align: middle;
-}
-
 .demo {
   font-weight: bold;
   display: inline-table;

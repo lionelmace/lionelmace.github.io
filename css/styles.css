@@ -24,6 +24,7 @@ h1 {
   height: 50px;
   width: 200px;
   text-align: center;
+  vertical-align: middle;
 }
 
 .demo {

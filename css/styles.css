@@ -17,6 +17,7 @@ h1 {
 
 .demo {
   font-family:'Avenir Next';
+  font-size: 24;
   display: inline-table;
   padding: 20px;
   margin-left: 5px;

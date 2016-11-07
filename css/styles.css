@@ -63,6 +63,12 @@ h1 {
   color: #FFF;
 }
 
+.demo-ppt,
+.demo-ppt a {
+  background: #D58370;
+  color: #FFF;
+}
+
 footer {
   position: fixed;
   left: 0px;

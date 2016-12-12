@@ -3,5 +3,4 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
-private/secrets.html
-private/secretorig.html
+/secrets

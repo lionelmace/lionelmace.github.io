@@ -81,14 +81,30 @@ h1 {
   color: #FFF;
 }
 
-footer {
+/*footer-left {
   position: fixed;
   left: 0px;
   bottom: 0px;
   right: 0px;
   background-color: rgb(248, 248, 248);
   color: #888;
-  text-align: right;
+  text-align: left;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top: 1px solid rgba(0,0,0,.075);
+}*/
+
+footer {
+  display: inline-block;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgb(248, 248, 248);
+  /*color: #888;*/
+  /*text-align: right;*/
   height: 40px;
   line-height: 40px;
   padding-left: 20px;

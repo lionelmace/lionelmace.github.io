@@ -16,6 +16,10 @@ h1 {
   background: #BBBDBF;
 }
 
+.h3 {
+  margin-left: 5px;  
+}
+
 .demo {
   font-family:'Avenir Next';
   font-size: 18;
@@ -24,19 +28,25 @@ h1 {
   margin-left: 5px;
   margin-bottom: 5px;
   height: 50px;
-  width: 230px;
+  width: 220px;
   text-align: left;
   white-space: nowrap;
 }
 
 .col1 {
   display: inline-block;
-  width:18%;
+  width:15%;
  }
 
 .col2 {
   display: inline-block;
   width:82%;
+}
+
+.demo-empty,
+.demo-empty a {
+  background: #f2f5f9;
+  color: #FFF;
 }
 
 .demo-blue,
@@ -45,9 +55,9 @@ h1 {
   color: #FFF;
 }
 
-.demo-tools,
-.demo-tools a {
-  background: #58595B;
+.demo-grey,
+.demo-grey a {
+  background: #959492;
   color: #FFF;
 }
 
@@ -81,20 +91,11 @@ h1 {
   color: #FFF;
 }
 
-/*footer-left {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  background-color: rgb(248, 248, 248);
-  color: #888;
-  text-align: left;
-  height: 40px;
-  line-height: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-top: 1px solid rgba(0,0,0,.075);
-}*/
+.demo-pdf,
+.demo-pdf a {
+  background: #006059;
+  color: #FFF;
+}
 
 footer {
   display: inline-block;

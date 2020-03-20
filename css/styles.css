@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   background-color:#f2f5f9;
+  margin-bottom: 60px;
 }
 
 h1 {
@@ -99,7 +100,7 @@ h1 {
 
 footer {
   display: inline-block;
-  position: relative;
+  position: fixed;
   left: 0px;
   bottom: 0px;
   right: 0px;
